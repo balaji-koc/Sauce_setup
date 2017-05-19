@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="2" name="Suite" parallel="tests">
+ 
+  <test name="Test01">
+ <parameter name="browser" value="chrome"/>
+  <parameter name="os" value="MAC"/>
+  <parameter name="browVer" value="43.0"/>
+    <classes>
+        <class name="sauselabs.GamilLogin"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test02">
+ <parameter name="browser" value="firefox"/>
+  <parameter name="os" value="Windows 7"/>
+  <parameter name="browVer" value="42.0"/>
+    <classes>
+        <class name="sauselabs.GamilLogin"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

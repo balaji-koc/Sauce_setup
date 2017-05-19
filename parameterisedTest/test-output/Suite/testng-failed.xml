@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test02(failed)" parallel="methods">
+    <parameter name="os" value="Windows 7"/>
+    <parameter name="browser" value="internetexplorer"/>
+    <parameter name="browVer" value="11.0"/>
+    <classes>
+      <class name="sauselabs.GamilLogin">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- sauselabs.GamilLogin -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+</suite> <!-- Failed suite [Suite] -->
