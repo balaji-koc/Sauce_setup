@@ -2,37 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31591" started-at="2017-05-19T07:58:27Z" finished-at="2017-05-19T07:58:59Z">
+  <suite name="Suite" duration-ms="20322" started-at="2017-05-20T01:23:58Z" finished-at="2017-05-20T01:24:18Z">
     <groups>
     </groups>
-    <test name="Test01" duration-ms="14428" started-at="2017-05-19T07:58:27Z" finished-at="2017-05-19T07:58:41Z">
+    <test name="Test02" duration-ms="14030" started-at="2017-05-20T01:23:58Z" finished-at="2017-05-20T01:24:12Z">
       <class name="sauselabs.GamilLogin">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauselabs.GamilLogin@1b17b4c]" name="login" duration-ms="14393" started-at="2017-05-19T13:28:27Z" finished-at="2017-05-19T13:28:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MAC]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- sauselabs.GamilLogin -->
-    </test> <!-- Test01 -->
-    <test name="Test02" duration-ms="17120" started-at="2017-05-19T07:58:41Z" finished-at="2017-05-19T07:58:59Z">
-      <class name="sauselabs.GamilLogin">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauselabs.GamilLogin@18db581]" name="login" duration-ms="17112" started-at="2017-05-19T13:28:41Z" finished-at="2017-05-19T13:28:59Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauselabs.GamilLogin@18db581]" name="login" duration-ms="14015" started-at="2017-05-20T06:53:58Z" finished-at="2017-05-20T06:54:12Z">
           <params>
             <param index="0">
               <value>
@@ -55,5 +30,30 @@
         </test-method> <!-- login -->
       </class> <!-- sauselabs.GamilLogin -->
     </test> <!-- Test02 -->
+    <test name="Test01" duration-ms="20322" started-at="2017-05-20T01:23:58Z" finished-at="2017-05-20T01:24:18Z">
+      <class name="sauselabs.GamilLogin">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauselabs.GamilLogin@1b17b4c]" name="login" duration-ms="20307" started-at="2017-05-20T06:53:58Z" finished-at="2017-05-20T06:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- sauselabs.GamilLogin -->
+    </test> <!-- Test01 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -12,12 +12,12 @@
     </classes>
   </test> <!-- Test -->
   
- <!--  <test name="Test02">
+  <test name="Test02">
  <parameter name="browser" value="firefox"/>
   <parameter name="os" value="Windows 7"/>
   <parameter name="browVer" value="42.0"/>
     <classes>
         <class name="sauselabs.GamilLogin"/>      
     </classes>
-  </test> <!-- Test --> -->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
